@@ -14,7 +14,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/kanban-board" element={<Index />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
